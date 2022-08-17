@@ -1,0 +1,1 @@
+{"version":3,"file":"ApiGetPokemonImage.js","sourceRoot":"","sources":["../../service/ApiGetPokemonImage.ts"],"names":[],"mappings":";;AAEA,MAAqB,kBAAkB;IACnC,OAAO,CAAC,EAAE,EAAE,EAAiB;QACzB,8EAA8E;QAC9E,gFAAgF;QAChF,OAAO,CAAC,CAAA;IACZ,CAAC;CACJ;AAND,qCAMC"}

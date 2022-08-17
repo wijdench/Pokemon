@@ -1,7 +1,7 @@
 ## Instruction
 
 1. install node (node version used for this project `v16.16.0`, npm version `v8.15.0`) 
-2. go to `pokemon/Server` and do the following
+2. go to `pokemon/server` and do the following
     1. execute: `npm install` to install all the server modules
     2. execute: `npm start` to run server
 3. go to `pokemon/client` and do the following

@@ -1,0 +1,1 @@
+{"version":3,"file":"ApiGetPokemonDetailsResponse.js","sourceRoot":"","sources":["../../../service/dto/ApiGetPokemonDetailsResponse.ts"],"names":[],"mappings":";;AAOA,MAAqB,4BAA4B;IAI7C,YAAY,EACR,QAAQ,GAAO,EAAE,EACjB,YAAY,GAAG,CAAC,MACwB,EAAE;QAC1C,IAAI,CAAC,QAAQ,GAAQ,QAAQ,CAAA;QAC7B,IAAI,CAAC,YAAY,GAAI,YAAY,CAAA;IACrC,CAAC;CACJ;AAXD,+CAWC"}
