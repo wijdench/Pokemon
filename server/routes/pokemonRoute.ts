@@ -6,16 +6,15 @@ import ApiGetPokemonImageLink       from '../service/ApiGetPokemonImageLink'
 import ApiGetPokemonTypes           from '../service/ApiGetPokemonTypes'
 
 const router = express.Router()
-const apiGetPokemonDetails   = new ApiGetPokemonDetails()
-const apiGetPokemonImageLink = new ApiGetPokemonImageLink()
-const apiGetPokemonTypes     = new ApiGetPokemonTypes()
 
 router.get('/types', (req, res) => {
+    const apiGetPokemonTypes = new ApiGetPokemonTypes()
     const result = apiGetPokemonTypes.execute()
     res.status(200).json(result)
 })
 
 router.get('/details', (req, res) => {
+    const apiGetPokemonDetails = new ApiGetPokemonDetails()
     const data = req.query
     const filter = new ApiInputFilterPokemonDetails(data)
     const result = apiGetPokemonDetails.execute(filter)
@@ -24,6 +23,7 @@ router.get('/details', (req, res) => {
 
 router.get('/:id/image', (req, res) => {
     const { id } = req.params
+    const apiGetPokemonImageLink = new ApiGetPokemonImageLink()
     const imageLink = apiGetPokemonImageLink.execute({ id })
 
     fs.readFile(imageLink, (err, data) => {
